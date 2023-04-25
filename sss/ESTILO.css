@@ -1,0 +1,147 @@
+/* Estilos para la fuente Century Gothic */
+body {
+    font-family: "Century Gothic", sans-serif;
+}
+
+h1,
+
+h2,
+
+h3,
+
+p,
+
+a {
+    font-family: "Century Gothic", sans-serif;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.categoria {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.categoria img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.categoria h2 {
+    margin-right: 10px;
+}
+
+.carousel-inner {
+    display: flex;
+    scroll-snap-align: start;
+}
+
+.card {
+    /* Estilo de las tarjetas */
+    width: 200px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+
+    /* Agregar margen inferior */
+}
+
+.productos-container {
+    /* Estilos del contenedor de productos */
+    display: flex;
+
+    /* Cambiar a display: flex */
+    flex-wrap: wrap;
+
+    /* Permitir que los productos se envuelvan en varias líneas */
+    justify-content: space-between;
+
+    /* Distribuir los productos con espacio entre ellos */
+}
+
+.producto {
+    /* Estilos de los elementos de producto */
+    flex: 0 0 calc(25% - 20px);
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    background-color: #ffffff0b;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    /* Agregar margen derecho */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.527);
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.producto img {
+    /* Estilos de las imágenes de producto */
+    display: block;
+    margin: 0 auto;
+
+    /* Centrar horizontalmente */
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+
+.producto h4 {
+    /* Estilos de los títulos de producto */
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.producto p {
+    /* Estilos de las descripciones de producto */
+    margin: 10px;
+}
+
+.producto:hover {
+    /* Estilos al pasar el cursor sobre los elementos de producto */
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+
+    /* Cambiar opacity a 1 */
+}
+
+.boton-compra {
+    /* Estilos del botón de compra */
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    /* Agregar cursor pointer */
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.527);
+}
+
+.boton-compra:hover {
+    /* Estilos al pasar el cursor sobre el botón de compra */
+    background-color: #0056b3;
+}
+
+body {
+    background-color: #f0f0f0;
+    background-image: url('Imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
